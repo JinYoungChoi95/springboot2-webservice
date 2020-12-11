@@ -31,7 +31,7 @@ dependencies {
     compile('org.projectlombok:lombok')
     //spring boot용 spring data java 추상화 라이브러리
     //spring boot version에 맞춰 자동으로 JPA 관련 라이브러리 version 관리
-    compile('org.springframework.boot:spring-boot-starter-data-java')
+    compile('org.springframework.boot:spring-boot-starter-data-jpa')
     //인메모리형 RDB
     compile('com.h2database:h2')
     testCompile('org.springframework.boot:spring-boot-starter-test')
