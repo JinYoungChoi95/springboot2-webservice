@@ -1,5 +1,6 @@
 package com.webservice.springboot.domain.posts;
 
+import com.webservice.springboot.domain.BaseTimeEntity;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -20,7 +21,7 @@ import javax.persistence.Id;
 //JPA annotation
 //table과 실제 링크될 class임을 표현
 @Entity
-public class Posts {
+public class Posts extends BaseTimeEntity {
     //Primary Key field
     @Id
     //Primary Key 생성 규칙
