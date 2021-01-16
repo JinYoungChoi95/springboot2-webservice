@@ -27,7 +27,7 @@ public class Posts extends BaseTimeEntity {
     //Primary Key 생성 규칙
     //GenerationType.IDENTITY를 지정해주어야 id가 auto increment됨
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long Id;
+    private Long id;
 
     //feild column 옵션 설정시 사용
     @Column(length = 500, nullable = false)
