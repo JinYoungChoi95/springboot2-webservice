@@ -35,4 +35,6 @@ dependencies {
     //인메모리형 RDB
     compile('com.h2database:h2')
     testCompile('org.springframework.boot:spring-boot-starter-test')
+    //mustache dependency
+    compile('org.springframework.boot:spring-boot-starter-mustache')
 }
